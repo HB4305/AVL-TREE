@@ -127,6 +127,7 @@ NODE* change(NODE* pRoot)
     }
     return pRoot;
 } 
+// hàm xóa nút vơi giá trị x 
 void Remove(NODE* &pRoot, int x)
 {
 	if(pRoot == NULL) return;
